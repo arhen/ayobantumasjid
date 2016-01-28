@@ -1,0 +1,317 @@
+@import "pkelements.less";
+
+#karacaPanel {
+  content: "https://github.com/Projekod/Karaca";
+}
+
+html, body {height: 100%}
+
+
+@appBackgroundColor:#F9FAFA;
+@widgetHeadBackgroundColor:#EDF0F0;
+
+body {
+  padding:0px;
+  margin:0px;
+//  background-color:#7f8c8d;
+  background-color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  overflow-y: hidden;
+  position: relative;
+  padding-top:10px;
+}
+
+
+.ok {
+  background: right center no-repeat url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAALCAYAAABcUvyWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkMxODk3NjdBQjY4MTFFMzk5QkVDOEQwN0EzMDcyRjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkMxODk3NjhBQjY4MTFFMzk5QkVDOEQwN0EzMDcyRjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGQzE4OTc2NUFCNjgxMUUzOTlCRUM4RDA3QTMwNzJGOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGQzE4OTc2NkFCNjgxMUUzOTlCRUM4RDA3QTMwNzJGOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ptg6u7wAAABHSURBVHjaYvz06RMDFiDPhE0QiA8wYRMEYgUmbIIgDhM2QZiEALogTOIDEC9EdwHMqAYgbsQmgSGJ7ly4JAsWD4IkGQACDAAXZQztNG3HqgAAAABJRU5ErkJggg==');
+}
+ul {
+  padding:0px;
+  margin:0px;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn {
+  .border-radius(4px,4px,4px,4px);
+}
+
+#application {
+  width: 99%;
+  margin:0px auto;
+  .border-radius(4px,0px,0px,4px);
+  background: @appBackgroundColor;
+  height: 100%;
+  padding:0px;
+  .box-shadow(0px 0px 5px 2px darken(#7F8C8D,5%));
+  @topline-Height : 70px;
+  @leftSide-Width : 90px;
+
+
+  #topLine {
+    height: @topline-Height;
+    background: #3B4557;
+    position: relative;
+    .border-radius(4px,0px,0px,4px);
+    color:#8A949F;
+    padding-left:@leftSide-Width+25;
+    line-height: @topline-Height;
+    .applogo {
+      width: @leftSide-Width;
+      background: #1E2226;
+      height: @topline-Height;
+      .border-radius(0px,0px,0px,4px);
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .topmenu {
+      background: #3B4557 ;
+      position: absolute;
+      right: 0px;
+      width: 220px;
+      .border-radius(4px,0px,0px,0px);
+      ul {
+        padding:0px;
+        margin:0px;
+        position: relative;
+        left: 0px;
+        li {
+
+          ul {
+            transition:all ease-in-out 0.4s;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 9999;
+            position: absolute;
+            background: #000;
+            left: 0px;
+            width: 100%;
+            padding:0px;
+            margin:0px;
+            li {
+              line-height: 30px;
+              a {
+                padding-left: 15px;
+                display: block;
+              }
+              a:hover {
+                background: #91C46B;
+                color:#000;
+
+              }
+            }
+          }
+          &:hover ul {
+            visibility: visible;
+            opacity: 1;
+          }
+        }
+      }
+      a {
+        font-size:13px;
+        color:#efefef;
+      }
+      a.ta {
+        padding-left: 15px;
+        i {
+          font-size: 20px;
+          padding-left: 5px;
+          line-height: 60px;
+        }
+      }
+
+    }
+    .topcontent {
+      float:left;
+      overflow: hidden;
+      i {
+        font-size: 25px;
+        color:#FFF;
+        margin-right:15px;
+      }
+    }
+  }
+
+
+  #appContent {
+    padding:0px;
+    margin:0px;
+    overflow-x: hidden;
+    position: relative;
+    height: calc(~'100% - 70px');
+
+    #dl-menu {
+      z-index: 9999;
+      padding-top:5px;
+      width: 300px;
+      position: absolute;
+      left:0px;
+      top:36px;
+      ul {
+        padding:0px;
+        margin:0px;
+        position: absolute;
+        top:0px;
+        width: 300px;
+        a {
+          i {
+            margin-right:10px;
+          }
+        }
+      }
+    }
+    .appcontent {
+      //padding-left:@leftSide-Width;
+      padding-left:0px;
+      overflow: hidden;
+      height: 100%;
+      .appbreadcrumb {
+        padding:0px;
+        margin:0px;
+        background: #FFF;
+        border-bottom: 1px solid #d0d0d0;
+        ol {
+          .border-radius(0px,0px,0px,0px);
+          background: #FFF;
+        margin:0px;
+
+
+        }
+      }
+      .content {
+        padding:5px;
+        overflow-y:auto;
+        height: 100%;
+
+      }
+    }
+
+  }
+
+}
+
+
+.widget {
+  .border-radius(4px,4px,4px,4px);
+  .drop-shadow(0,2px);
+  border:1px solid #D6DEE1;
+  background: #FFF;
+  margin-bottom:10px;
+  height: auto;
+  .whead {
+    height: 40px;
+    .border-radius(4px,0px,0px,4px);
+    border-bottom:1px solid #D6DEE1;
+    background: @widgetHeadBackgroundColor;
+    font-weight: bold;
+    color:#2F323A;
+    h6 {
+      padding:0px;
+      margin:0px;
+      padding-left:15px;
+      float:left;
+      line-height: 40px;
+    }
+    .btn {
+      float:right;
+      margin-top:5px;
+      margin-right: 10px;
+    }
+    .btn-group {
+      float: right;
+      margin-top:3px;
+      margin-right: 5px;
+      .btn {
+        float: left !important;
+        margin:0px !important;
+      }
+    }
+  }
+  .wbody {
+    padding:5px;
+    min-height: 300px;
+  }
+}
+
+
+table.tDefault {
+  width: 100%;
+}
+
+
+.message .alert {
+  margin:10px;
+}
+
+.select {
+  display: inline-block;
+  width: 100%;
+}
+
+.ara {
+  height: 200px;
+  display: block;
+  width: 100%;
+}
+
+.modal-content .chosen-container{
+  width: 100% !important;
+  margin-left:4px;
+}
+.modal-header {
+  color:#000;
+  background: #c0c0c0;
+  .border-radius(4px,0px,0px,4px);
+  border-bottom:1px solid darken(#c0c0c0,10%);
+}
+
+.dtable thead tr {
+  background: #49638C;
+  color:#EFEFEF;
+}
+
+.dtable .btn-group {
+  display: flex;
+}
+
+
+@media screen and (max-height: 300px) {
+
+  ol.breadcrumb {
+    display: block;
+  }
+  #topLine {
+    display: none;
+  }
+  #appContent {
+    height: calc(~'100% - 0.1px') !important;
+    overflow: hidden;
+    top:0px !important;
+    border-top:2px solid #000;
+
+  }
+  .ara {
+    height: 20px !important;
+  }
+  .content {
+    overflow-x:hidden;
+  }
+}
+@media screen and (max-width: 400px) {
+
+}
+
+
+
+.menuButton {
+  font-weight: bold;
+  color:#D9534F;
+}
+
+
+@import "menuCss.less";

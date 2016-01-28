@@ -1,0 +1,114 @@
+/*!
+ * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.logo {
+    width: 300px;
+    height: 200px;
+    top : 50px;
+    left: 100px;
+    float: left;
+    position: fixed;
+    background: url(../img/logo.jpg) left center no-repeat;
+    /*text-indent: -99999px;*/
+}
+
+a{
+    padding: 10px;
+}
+
+.bg{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+    /*background-image: url("../img/backgrounds/1.jpg");*/
+    background-color: #fff;
+}
+
+.row{
+    background-color: #fff;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+    background: url('../img/backgrounds/1.jpg') no-repeat center center scroll;
+    padding: 200px 0px;
+    /*padding-right: 20px;*/
+
+
+/*.image-bg-fixed-height {
+    background: url('../img/backgrounds/1.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+*/
+.img-center {
+    margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/***** Media queries *****/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {visibility: hidden;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {visibility: hidden;}
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {visibility: hidden;}
+
+}
+
+@media (max-width: 415px) {
+    
+    h1, h2 { font-size: 32px; }
+    .logo {visibility: hidden;}
+
+}

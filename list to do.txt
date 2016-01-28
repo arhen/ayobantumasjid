@@ -1,0 +1,12 @@
+- konfirmasi email :
+	1. Saat kirim TOmbol Donasi 
+	2. Saat konfirm data donasi
+	3. Broadcast Pesan untuk proyek yang selesai.
+
+- Perbaiki Validasi File Gambar. Jika lewt 2 MB tidak terkirim.
+- Import File Tabble ke Excel.
+- Data Proyek Terdahulu.
+
+
+ CC9B9A
+ 

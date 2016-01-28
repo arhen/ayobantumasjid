@@ -1,0 +1,947 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: awaken.1.1.2\n"
+"POT-Creation-Date: 2015-06-12 00:12+0530\n"
+"PO-Revision-Date: 2015-06-12 00:12+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_n;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: archive.php:24
+msgid "Category"
+msgstr ""
+
+#: archive.php:30
+msgid "Tag"
+msgstr ""
+
+#: archive.php:36
+msgid "Author"
+msgstr ""
+
+#: archive.php:42
+msgid "Date"
+msgstr ""
+
+#: archive.php:49
+msgid "Month"
+msgstr ""
+
+#: archive.php:56
+msgid "Year"
+msgstr ""
+
+#: archive.php:62
+msgid "Asides"
+msgstr ""
+
+#: archive.php:65
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:68
+msgid "Images"
+msgstr ""
+
+#: archive.php:71
+msgid "Videos"
+msgstr ""
+
+#: archive.php:74
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:77
+msgid "Links"
+msgstr ""
+
+#: archive.php:80
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:83
+msgid "Audios"
+msgstr ""
+
+#: archive.php:86
+msgid "Chats"
+msgstr ""
+
+#: archive.php:89
+msgid "Archives"
+msgstr ""
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:18 content-single.php:23 content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:24 content-single.php:13
+msgid "Edit"
+msgstr ""
+
+#: content-search.php:31 content.php:28 inc/widgets/dual-category.php:205
+#: inc/widgets/dual-category.php:262 inc/widgets/single-category.php:124
+#: inc/widgets/three-block-posts.php:149
+msgid "Comment"
+msgstr ""
+
+#: content-single.php:32 content-single.php:35
+msgid " "
+msgstr ""
+
+#: content-single.php:39
+msgid "Posted Under"
+msgstr ""
+
+#: content-single.php:47
+msgid "Tagged"
+msgstr ""
+
+#: footer.php:58
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: footer.php:61
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:61
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:57
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:60
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:155
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:164
+msgid "Magazine 1"
+msgstr ""
+
+#: functions.php:173
+msgid "Magazine 2"
+msgstr ""
+
+#: functions.php:182
+msgid "Footer Left Sidebar"
+msgstr ""
+
+#: functions.php:191
+msgid "Footer Mid Sidebar"
+msgstr ""
+
+#: functions.php:200
+msgid "Footer Right Sidebar"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:32
+msgid "Top Menu"
+msgstr ""
+
+#: header.php:81
+msgid "Main Menu"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "<span class=\"search-title-span\">Search Results for : </span> %s"
+msgstr ""
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav-prev\"></span> Previous"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "Next <span class=\"meta-nav-next\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:74
+msgid "Post navigation"
+msgstr ""
+
+#: inc/options/admin-config.php:109
+msgid "Section via hook"
+msgstr ""
+
+#: inc/options/admin-config.php:110
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: inc/options/admin-config.php:190
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/options/admin-config.php:210
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: inc/options/admin-config.php:211
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: inc/options/admin-config.php:212 inc/widgets/popular-tags-comments.php:89
+msgid "Tags"
+msgstr ""
+
+#: inc/options/admin-config.php:217
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: inc/options/admin-config.php:217
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: inc/options/admin-config.php:240
+msgid "General Settings"
+msgstr ""
+
+#: inc/options/admin-config.php:241
+msgid "Use this tab to set the general settings of your site"
+msgstr ""
+
+#: inc/options/admin-config.php:250
+msgid "Logo"
+msgstr ""
+
+#: inc/options/admin-config.php:253
+msgid "Make sure that you have selected the option below to display the logo."
+msgstr ""
+
+#: inc/options/admin-config.php:254
+msgid ""
+"Upload a logo for your website. Recommended height for your logo is 135px."
+msgstr ""
+
+#: inc/options/admin-config.php:265 inc/options/admin-config.php:386
+#: inc/options/admin-config.php:403 inc/options/admin-config.php:460
+#: inc/options/admin-config.php:557
+msgid ""
+"<a href=\"http://www.themezhut.com/themes/awaken-pro\" target=\"_blank"
+"\">Upgrade to Pro</a>"
+msgstr ""
+
+#: inc/options/admin-config.php:266
+msgid ""
+"Pro Version Comes with Layout Options, Unlimited Colors, Post Options, "
+"Unlimited Sidebars etc."
+msgstr ""
+
+#: inc/options/admin-config.php:272
+msgid "Display Site Title / Logo"
+msgstr ""
+
+#: inc/options/admin-config.php:273
+msgid "Choose your preffered option."
+msgstr ""
+
+#: inc/options/admin-config.php:287
+msgid "Read more text"
+msgstr ""
+
+#: inc/options/admin-config.php:288
+msgid "Give a read more text for posts."
+msgstr ""
+
+#: inc/options/admin-config.php:289
+msgid "You can use html if you want."
+msgstr ""
+
+#: inc/options/admin-config.php:296
+msgid "Show Favicon"
+msgstr ""
+
+#: inc/options/admin-config.php:297
+msgid "Choose your preferred option."
+msgstr ""
+
+#: inc/options/admin-config.php:303
+msgid "Favicon"
+msgstr ""
+
+#: inc/options/admin-config.php:312
+msgid "Upload a favicon"
+msgstr ""
+
+#: inc/options/admin-config.php:315
+msgid "Upload a site favicon"
+msgstr ""
+
+#: inc/options/admin-config.php:316
+msgid "Upload or choose a favicon for your website."
+msgstr ""
+
+#: inc/options/admin-config.php:332
+msgid "Header Code"
+msgstr ""
+
+#: inc/options/admin-config.php:333
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the header of your theme."
+msgstr ""
+
+#: inc/options/admin-config.php:341
+msgid "Footer Text"
+msgstr ""
+
+#: inc/options/admin-config.php:342
+msgid ""
+"Enter your text here. If you want to align the text, center or right simply "
+"do that using the editor"
+msgstr ""
+
+#: inc/options/admin-config.php:350
+msgid "Home Settings"
+msgstr ""
+
+#: inc/options/admin-config.php:351
+msgid "Use this tab to set the homepage settings of your site"
+msgstr ""
+
+#: inc/options/admin-config.php:359
+msgid "Activate Slider"
+msgstr ""
+
+#: inc/options/admin-config.php:360
+msgid "Check the checkbox to activate the slider"
+msgstr ""
+
+#: inc/options/admin-config.php:368
+msgid "Select the slider category"
+msgstr ""
+
+#: inc/options/admin-config.php:369
+msgid ""
+"Post thumbnails of the posts from selected category will be displayed in the "
+"slider"
+msgstr ""
+
+#: inc/options/admin-config.php:370 inc/options/admin-config.php:379
+msgid ""
+"Do not select a category or close the current category if you want to "
+"display latest posts."
+msgstr ""
+
+#: inc/options/admin-config.php:377
+msgid "Select the featured posts category"
+msgstr ""
+
+#: inc/options/admin-config.php:378
+msgid ""
+"Post thumbnails of the posts from selected category will be displayed as "
+"featured posts"
+msgstr ""
+
+#: inc/options/admin-config.php:387
+msgid ""
+"Pro Version comes with unlimited slides, more slider options, custom slider "
+"etc"
+msgstr ""
+
+#: inc/options/admin-config.php:394
+msgid "Styling Options"
+msgstr ""
+
+#: inc/options/admin-config.php:395
+msgid "Use this tab to set the style settings of the site"
+msgstr ""
+
+#: inc/options/admin-config.php:404
+msgid ""
+"Pro Version comes with unlimited fonts, unlimited colors, custom styling "
+"options, boxed and wide layouts. etc"
+msgstr ""
+
+#: inc/options/admin-config.php:410
+msgid "Body Background"
+msgstr ""
+
+#: inc/options/admin-config.php:411
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: inc/options/admin-config.php:417
+msgid "Custom CSS Code"
+msgstr ""
+
+#: inc/options/admin-config.php:418
+msgid "Add your CSS code here."
+msgstr ""
+
+#: inc/options/admin-config.php:427
+msgid "Post / Page Options"
+msgstr ""
+
+#: inc/options/admin-config.php:428
+msgid "Use this tab to set the post settings of the site"
+msgstr ""
+
+#: inc/options/admin-config.php:435
+msgid "Comment area on posts."
+msgstr ""
+
+#: inc/options/admin-config.php:436
+msgid "Switch on if you want to display comments and comment form in posts."
+msgstr ""
+
+#: inc/options/admin-config.php:443
+msgid "Comment area on pages."
+msgstr ""
+
+#: inc/options/admin-config.php:444
+msgid "Switch on if you want to display comments and comment form in pages."
+msgstr ""
+
+#: inc/options/admin-config.php:451
+msgid "Display featured image in single post article."
+msgstr ""
+
+#: inc/options/admin-config.php:452
+msgid "Switch on if you want to display featured images in single posts."
+msgstr ""
+
+#: inc/options/admin-config.php:461
+msgid "Pro version comes with more post options."
+msgstr ""
+
+#: inc/options/admin-config.php:468
+msgid "Social Media"
+msgstr ""
+
+#: inc/options/admin-config.php:469
+msgid "Use this tab to set the social media settings of the site"
+msgstr ""
+
+#: inc/options/admin-config.php:476
+msgid "Display social media icons."
+msgstr ""
+
+#: inc/options/admin-config.php:477
+msgid "Check the checkbox to activate social icons."
+msgstr ""
+
+#: inc/options/admin-config.php:484
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/options/admin-config.php:485 inc/options/admin-config.php:494
+#: inc/options/admin-config.php:503 inc/options/admin-config.php:512
+#: inc/options/admin-config.php:521 inc/options/admin-config.php:530
+#: inc/options/admin-config.php:539 inc/options/admin-config.php:548
+msgid "This must be a URL. Start with http://"
+msgstr ""
+
+#: inc/options/admin-config.php:493
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/options/admin-config.php:502
+msgid "Google Plus Link"
+msgstr ""
+
+#: inc/options/admin-config.php:511
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/options/admin-config.php:520
+msgid "RSS Link"
+msgstr ""
+
+#: inc/options/admin-config.php:529
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/options/admin-config.php:538
+msgid "Flickr Link"
+msgstr ""
+
+#: inc/options/admin-config.php:547
+msgid "Youtube Link"
+msgstr ""
+
+#: inc/options/admin-config.php:558
+msgid "Pro Version comes with more social media link options."
+msgstr ""
+
+#: inc/options/admin-config.php:571
+msgid "<span class=\"sp-menu\">Theme Support</span>"
+msgstr ""
+
+#: inc/options/admin-config.php:572
+msgid ""
+"<p class=\"description\">Follow these links to get more details about Awaken "
+"WordPress Theme.</p>"
+msgstr ""
+
+#: inc/options/admin-config.php:579
+msgid ""
+"<h4><a class=\"thgreen\" href=\"http://www.themezhut.com/themes/awaken\" "
+"target=\"_blank\">Theme Details</a></h4> <h4><a class=\"thred\" href="
+"\"http://www.themezhut.com/awaken-wordpress-theme-documentation\" target="
+"\"_blank\">Theme Setup Guide</a></h4> <h4><a class=\"thblue\" href=\"http://"
+"www.themezhut.com/demo/awaken\" target=\"_blank\">Theme Demo</a></h4> <h4><a "
+"class=\"thlgreen\" href=\"http://wordpress.org/themes/awaken\" target="
+"\"_blank\">Rate Awaken Theme</a></h4> <h4><a class=\"thbrown\" href=\"http://"
+"www.themezhut.com/themes/awaken-pro\" target=\"_blank\">Awaken Pro Details</"
+"a></h4> <h4><a class=\"thpurple\" href=\"http://www.themezhut.com/demo/"
+"awaken-pro\" target=\"_blank\">Awaken Pro Demo</a></h4>"
+msgstr ""
+
+#: inc/options/admin-config.php:587
+msgid "<h4>Support Us.</h4>"
+msgstr ""
+
+#: inc/options/admin-config.php:588
+msgid ""
+"The best way to thank us is, by rating our theme with 5 stars. <a href="
+"\"http://wordpress.org/themes/awaken\" target=\"_blank\">Click here to rate "
+"our theme.</a>"
+msgstr ""
+
+#: inc/options/admin-config.php:598
+msgid "Import / Export"
+msgstr ""
+
+#: inc/options/admin-config.php:599
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: inc/options/admin-config.php:614
+msgid "Theme Information"
+msgstr ""
+
+#: inc/options/admin-config.php:632
+msgid "Theme Information 1"
+msgstr ""
+
+#: inc/options/admin-config.php:633 inc/options/admin-config.php:639
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: inc/options/admin-config.php:638
+msgid "Theme Information 2"
+msgstr ""
+
+#: inc/options/admin-config.php:643
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: inc/options/admin-config.php:666 inc/options/admin-config.php:667
+msgid "Awaken Options"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:161
+#: inc/options/tgm/example.php:91
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:162
+#: inc/options/tgm/example.php:92
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:163
+#: inc/options/tgm/example.php:93
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:175
+#: inc/options/tgm/example.php:105
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:177
+#: inc/options/tgm/class-tgm-plugin-activation.php:1945
+#: inc/options/tgm/example.php:106
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:178
+#: inc/options/tgm/class-tgm-plugin-activation.php:1636
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:534
+#: inc/options/tgm/class-tgm-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1290
+#: inc/options/tgm/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1312
+#: inc/options/tgm/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1929
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2059
+#: inc/options/tgm/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2059
+#: inc/options/tgm/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/options/tgm/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/options/tgm/example.php:94
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/options/tgm/example.php:107
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/widgets/dual-category.php:13
+msgid "Awaken: Two Block Posts Widget"
+msgstr ""
+
+#: inc/widgets/dual-category.php:14
+msgid "Displays posts in a full width layout"
+msgstr ""
+
+#: inc/widgets/dual-category.php:30 inc/widgets/dual-category.php:35
+#: inc/widgets/single-category.php:31 inc/widgets/three-block-posts.php:30
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/widgets/dual-category.php:51 inc/widgets/dual-category.php:75
+#: inc/widgets/medium-rectangle.php:40 inc/widgets/single-category.php:39
+#: inc/widgets/three-block-posts.php:43 inc/widgets/video-widget.php:39
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/dual-category.php:55 inc/widgets/dual-category.php:79
+#: inc/widgets/single-category.php:43 inc/widgets/three-block-posts.php:47
+msgid "Select a post category"
+msgstr ""
+
+#: inc/widgets/dual-category.php:59 inc/widgets/dual-category.php:83
+#: inc/widgets/three-block-posts.php:51
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets/dual-category.php:63 inc/widgets/dual-category.php:87
+#: inc/widgets/three-block-posts.php:55
+msgid "Number of posts to skip:"
+msgstr ""
+
+#: inc/widgets/dual-category.php:68 inc/widgets/dual-category.php:92
+#: inc/widgets/three-block-posts.php:60
+msgid "Hide sticky posts."
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:14
+msgid "Awaken: 300x250 Ad"
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:15
+msgid "Displays a 300x250 ad unit."
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:31
+msgid "Advertisement"
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:44
+msgid "Image Link"
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:48
+msgid "Destination Link"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:15
+msgid "Awaken: Popular Posts, Tags, Comments"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:16
+msgid "Displays popular posts, comments, tags in a tabbed pane."
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:36
+msgid "Number of popular posts:"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:40
+msgid "Number of comments:"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:87
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:88
+msgid "Comments"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:160
+msgid "No tags created."
+msgstr ""
+
+#: inc/widgets/single-category.php:14
+msgid "Awaken: Single Category Posts"
+msgstr ""
+
+#: inc/widgets/single-category.php:15
+msgid "Displays latest posts or posts from a choosen category."
+msgstr ""
+
+#: inc/widgets/three-block-posts.php:13
+msgid "Awaken: Three Block Posts Widget"
+msgstr ""
+
+#: inc/widgets/three-block-posts.php:14
+msgid "Displays posts by three blocks per row."
+msgstr ""
+
+#: inc/widgets/video-widget.php:14
+msgid "Awaken: Youtube Video"
+msgstr ""
+
+#: inc/widgets/video-widget.php:15
+msgid "Displays a youtube video."
+msgstr ""
+
+#: inc/widgets/video-widget.php:31
+msgid "Featured Video"
+msgstr ""
+
+#: inc/widgets/video-widget.php:43
+msgid "Youtube Video ID"
+msgstr ""
