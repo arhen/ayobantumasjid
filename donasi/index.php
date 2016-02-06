@@ -1,5 +1,6 @@
 <?php
     require_once"model/class.php";
+    include("libs/path.php");
 ?>
 
 <!DOCTYPE html>
@@ -251,15 +252,15 @@ $(document).ready(function() {
             }
         }
     })
-    .on('submit', function(e) {
-            // Show the message modal
-            // $('#messageModal').modal('show');
-             if (e.isDefaultPrevented()) {
-                $('#messageModal').modal('show');
-              } else {
-                // everything looks good!
-              }
-        });
+    // .on('submit', function(e) {
+    //         // Show the message modal
+    //         // $('#messageModal').modal('show');
+    //          if (e.isDefaultPrevented()) {
+    //             $('#messageModal').modal('show');
+    //           } else {
+    //             // everything looks good!
+    //           }
+    //     });
 });
 
         </script>
