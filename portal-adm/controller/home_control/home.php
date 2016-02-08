@@ -221,6 +221,7 @@
                 echo '                             <td>';
                 echo '
                                                      <a href="'.$aksi.'nselesai&id_proyek='.$data2['id_proyek'].'" class="btn btn-warning btn-sm" role="button"><span class="glyphicon glyphicon-check"></span> Jalankan Lagi</a>
+                                                     <a href="'.$aksi.'broadcast&id_proyek='.$data2['id_proyek'].'" class="btn btn-warning btn-sm" role="button"><span class="glyphicon glyphicon-check"></span> Broadcast Pesan</a>
                 
                                                      <a
                                                         href="'.URL.'proyek/'.$data2['id_proyek'].'/proyek/'.'" class="btn btn-success btn-sm" role="button"><span class="glyphicon glyphicon-search"></span> Lihat</a>   

@@ -1,6 +1,6 @@
 <?php
 		require 'class.php';
-		require '../../phpmailer/PHPMailerAutoload.php';
+		require '../../assets/extra/phpmailer/PHPMailerAutoload.php';
 
 		if(isset($_POST['simpan'])) {
 			$nama = $_POST['nama'];
